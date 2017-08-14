@@ -1,0 +1,106 @@
+/* Base css */
+body{
+    background-color: 
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+margin: 0 0 15px;
+font-weight: 700;
+}
+body{
+	font-family: 'open Sans', sans-serif;
+}
+a:hover{text-decoration: none;}
+.section-padding{
+	padding: 88px 0;
+}
+.section-title h2 {
+    position: relative;
+    z-index: 1;
+    font-size: 35px;
+    color: #333;
+}
+
+.section-title {}
+
+.section-title h2:before {
+    position: absolute;
+    left: -20px;
+    top: 0;
+    height: 100%;
+    width: 5px;
+    content: "";
+    background: #FFcE46;
+}
+
+body {
+    color: #737373;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.section-title {
+    margin-bottom: 40px;
+}
+
+.service-icon {
+    color: #ffce46;
+    font-size: 50px;
+}
+
+h3 {}
+
+.single-service-box h3 {
+    color: #4555b9;
+}
+
+
+
+.single-service-box {
+    margin-bottom: 40px;
+}
+
+.bordered-box {
+    border: 7px solid #ffce46;;
+    padding: 40px;
+    margin-left: 30px;
+    margin-top: 100px;
+    margin-right: 120px;
+    position: relative;
+    height: 512px;
+}
+
+.bordered-box-img {
+    margin-top: -140px;
+    margin-bottom: 40px;
+    margin-right: -140px;
+    width: 400px;
+    max-width: 140%;
+    height: 300px;
+}
+
+.bordered-box-readmore-btn {
+    position: absolute;
+    transform: rotate(270deg);
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #4555b9;
+    font-size: 18px;
+    bottom: 46px;
+    right: -100px;
+}
+
+.bordered-box-readmore-btn i.fa {
+    margin-right: 6px;
+}
